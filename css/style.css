@@ -6,20 +6,20 @@ Author: Marija Zaric
 
 
 /* ----------------------------------------------------
-	 GLOBAL  STYLES 
+	 GLOBAL  STYLES
 ------------------------------------------------------- */
 
 
 body {
   font-family: "Roboto", Arial, serif;
   background: transparent;
-  border: 20px #669999 solid;
+  /* border: 20px #669999 solid; */
   -webkit-font-smoothing: antialiased;
 }
 
 img {
   max-width: 100%;
-  height: auto;		
+  height: auto;
 }
 
 
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* ----------------------------------------------------
-	OVERLAY MENU 
+	OVERLAY MENU
 ------------------------------------------------------- */
 
 
@@ -169,6 +169,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 25px;
     padding: 0;
     margin: 0;
+}
+
+.brand-logo {
+  width: 5em;
 }
 
 .navbar-custom .navbar-brand span.brand-logo{
@@ -192,14 +196,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-custom a {
-    color: rgba(254,82,76, 1); 
+    color: rgba(254,82,76, 1);
 }
 
 .navbar-custom .nav li a {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
-	
+
 }
 
 .navbar-custom .nav li a:hover {
@@ -286,7 +290,7 @@ h1, h2, h3, h4, h5, h6 {
 /* The overlay */
 .overlay {
     position: fixed;
-    display: block; 
+    display: block;
     background: #669999;
     top: 0;
     border: 0;
@@ -392,14 +396,14 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .btn {
-	font-size: 15px;	
+	font-size: 15px;
 	font-weight: 400;
 	color: white;
 	margin-top: 35px;
 	border: none;
-	background-color: #393b3d;	
+	background-color: #393b3d;
 	padding: 12px 18px;
-	-webkit-transition: all .35s; 
+	-webkit-transition: all .35s;
 	transition: all .35s;
     border-radius: 0;
     -webkit-border-radius: 0;
@@ -433,7 +437,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
 
 .contact-btn:hover {
 	background-color: #3c3841;
-	border-color: #404040;	
+	border-color: #404040;
 }
 
 
@@ -456,8 +460,8 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
   -moz-column-count:    3;
   -moz-column-gap:      0px;
   column-count:         3;
-  column-gap:           0px;  
-  
+  column-gap:           0px;
+
 }
  .block {
 	background-color: #4c4752;
@@ -487,7 +491,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
   color: white;
   font-weight: 300;
   margin-top: 50px;
-} 
+}
 
  .block1 {
 	background-color: #eaeaea;
@@ -504,7 +508,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
   text-align: left;
 }
 
-.story { 
+.story {
 	margin-top: 30px;
 	color: #669999;
 	font-size: 16px;
@@ -1368,7 +1372,7 @@ footer .container {
 }
 
 .section-bg-color {
-	background-color: #1a1a1a; 
+	background-color: #1a1a1a;
 	padding-top: 42px;
 	padding-bottom: 42px;
 background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.184 20c.357-.13.72-.264 1.088-.402l1.768-.661C33.64 15.347 39.647 14 50 14c10.271 0 15.362 1.222 24.629 4.928.955.383 1.869.74 2.75 1.072h6.225c-2.51-.73-5.139-1.691-8.233-2.928C65.888 13.278 60.562 12 50 12c-10.626 0-16.855 1.397-26.66 5.063l-1.767.662c-2.475.923-4.66 1.674-6.724 2.275h6.335zm0-20C13.258 2.892 8.077 4 0 4V2c5.744 0 9.951-.574 14.85-2h6.334zM77.38 0C85.239 2.966 90.502 4 100 4V2c-6.842 0-11.386-.542-16.396-2h-6.225zM0 14c8.44 0 13.718-1.21 22.272-4.402l1.768-.661C33.64 5.347 39.647 4 50 4c10.271 0 15.362 1.222 24.629 4.928C84.112 12.722 89.438 14 100 14v-2c-10.271 0-15.362-1.222-24.629-4.928C65.888 3.278 60.562 2 50 2 39.374 2 33.145 3.397 23.34 7.063l-1.767.662C13.223 10.84 8.163 12 0 12v2z' fill='%23050506' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
@@ -1414,13 +1418,13 @@ background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox
 @media(max-width: 1024px) {
 
 body {
-  border: 10px solid #669999;
+  /* border: 10px solid #669999; */
 }
 
 .home-heading, .inner-heading, .inner-heading-team, .inner-projects-heading {
 	 margin-top: 50px;
 }
-  
+
 .designer-top span {
     font-size: 15px;
 }
@@ -1429,11 +1433,11 @@ body {
 
 
 @media(max-width: 768px) {
- 
+
 header {
     padding: 2em 0;
   }
-  
+
 body {
   border: none;
 }
@@ -1521,8 +1525,8 @@ body {
            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
                 transition: background .5s ease-in-out, padding .5s ease-in-out;
  }
-  
-  
+
+
  .navbar-custom.top-nav-collapse .button_container span{
         background: black;
 }
@@ -1531,23 +1535,23 @@ body {
     .navbar-custom.top-nav-collapse .button_container.active span.bottom{
         background:black;
  }
- 
+
 }
 
 
 @media(max-width: 480px) {
-  
+
 header {
     padding: 2em 0;
   }
-  
+
 .home-heading, .inner-heading, .inner-heading-team, .inner-projects-heading {
     font-size: 20px;
 	padding-top: 15px;
   }
-  
+
 body {
-  border: 10px solid #669999;
+  /* border: 10px solid #669999; */
 }
 
 figure.effect-julia h2 {
@@ -1578,7 +1582,7 @@ figure.effect-julia p {
 	border: none;
 }
 
-.story { 
+.story {
   padding-bottom: 40px;
 }
 
@@ -1619,4 +1623,3 @@ figure.effect-julia p {
 }
 
 }
-
