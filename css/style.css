@@ -831,6 +831,12 @@ figure.effect-julia:hover p {
    color: #669999;
 }
 
+.pushdown {
+  margin-top: 6em;
+}
+
+
+
 .text-studio {
   font-size: 20px;
   font-weight: 300;
@@ -858,7 +864,8 @@ figure.effect-julia:hover p {
 }
 
  .img-studio {
-    border: 20px #c1d6d6 solid;
+    /* border: 20px #c1d6d6 solid; */
+    width: 40em;
     position: relative;
 	margin-top: 10px;
 }
@@ -979,7 +986,7 @@ figure.effect-julia:hover p {
 }
 
 .inner-heading-team {
-  font-size: 40px;
+  font-size: 28px;
   font-weight: 300;
   line-height: 1.4;
   margin-bottom: 0;
@@ -1548,6 +1555,14 @@ body {
 header {
     padding: 2em 0;
   }
+
+.pushdown {
+  margin-top: 0px;
+}
+
+/* .bioimages {
+  width: 25em;
+} */
 
 .home-heading, .inner-heading, .inner-heading-team, .inner-projects-heading {
     font-size: 20px;
